@@ -1,0 +1,37 @@
+@import "../../scss/grid.scss";
+@import "../../scss/variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Open Sans', sans-serif;
+    // background-color: $green;
+
+}
+
+body {
+    // max-width: 1440px;
+    font-size: calc(16px * ((100vw - 375px) / 1245));
+    letter-spacing: 0.3px;
+    color: $white;
+    font-weight: 300;
+}
+main {
+    background-color: $black;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
